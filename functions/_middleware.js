@@ -18,8 +18,8 @@ export async function onRequest(context) {
   }
 
   // Metatags Variables (edit these!)
-  const metatitle = "Cloudflare Pages Template"
-  const metadescription = "Get started with Cloudflare Pages by deploying this pretty simple template on your own account, and start playing around."
+  const metatitle = "The Undying Legend"
+  const metadescription = "In the depths beneath Wano, there lies a slumbering dragon."
 
   let name = searchParams.get('myQuery')
   let ogtag
@@ -31,7 +31,7 @@ export async function onRequest(context) {
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="${request.url}" />
-    <meta property="og:image" content="${request.url}img/preview.png?${name ? 'myQuery=' + name : 'default'}" />
+    <meta property="og:image" content="${request.url}kaidotwerk.mp4${name ? 'myQuery=' + name : 'default'}" />
 
     <meta property="og:image:height" content="630" />
     <meta property="og:image:width" content="1200" />
