@@ -40,7 +40,7 @@ export async function onRequest(context) {
     <meta name="twitter:title" content="${metatitle}" />
     <meta name="twitter:description" content="${metadescription}" />
 
-    <meta name="description" content="and even more stuff about my page" />
+    <meta name="description" content="SOON!" />
   `
 
   return new HTMLRewriter().on('head', new ElementHandler(ogtag)).transform(res)
